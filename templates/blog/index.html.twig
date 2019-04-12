@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello
+    {{controller_name}}!
+{% endblock %}
+
+{% block body %}
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+        <div class="content">
+            <img alt="" src="http://placehold.it/350x150">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi velit cum ad, pariatur laborum architecto?</p>
+            <p>Veniam illo suscipit itaque ducimus quia quidem quas, incidunt, iste possimus ea hic, impedit repellat.</p>
+            <a class="btn btn-primary" href="{{ path('blog_show') }}">Lire la suite</a>
+        </div>
+    </article>
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+        <div class="content">
+            <img alt="" src="http://placehold.it/350x150">
+            <p>Necessitatibus enim ad sunt amet qui! Minus modi et, culpa iure sit repellendus quas totam.</p>
+            <p>Officia, culpa reiciendis ab corporis officiis voluptates aut qui facere necessitatibus similique nihil doloribus accusantium!</p>
+            <a class="btn btn-primary" href="{{ path('blog_show') }}">Lire la suite</a>
+        </div>
+    </article>
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+        <div class="content">
+            <img alt="" src="http://placehold.it/350x150">
+            <p>Officiis quasi harum quisquam modi reprehenderit voluptates ipsum, aperiam debitis, amet impedit in dolor! Nostrum!</p>
+            <p>Dolorum facere, autem nihil eos cum asperiores tempore culpa, laboriosam fugiat, rerum exercitationem cupiditate voluptate!</p>
+            <a class="btn btn-primary" href="{{ path('blog_show') }}">Lire la suite</a>
+        </div>
+    </article>
+{% endblock %}
